@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Lotto numbers</title>
+    </head>
+
+<body>
+    <script>
+    // var numbers = [];
+    
+    // while(numbers.length < 5) {
+    //     var number = Math.floor(Math.random() * 48 + 1);
+    //     if (!numbers.includes(number)) { //prin ! neg o expresie, daca numbers nu include 
+    //         numbers.push(number);
+    //     }
+    // }
+
+    // console.log(numbers);
+
+
+//log number from 1 to100
+
+
+const logNumbers = (function () {
+    for (i = 1; i <= 100; i++) {
+        if (i % 3 === 0){
+            console.log("Mr.");
+        } else if (i % 5 === 0) {
+            console.log("Robot");
+        } else if ( i % 3 === 0 && i % 5 === 0) {
+            console.log("Mr. Robot");
+        } else {
+            console.log(i);
+        }
+    }
+})
+
+console.log (logNumbers());
+
+
+// function logNumbers(number) {
+//     var numbers;
+//     for (var i = 1; number <= 100; i++) {
+//     if (number % 3 === 0) {
+//         console.log('Mr.')
+//     }  else if ( number % 5) {
+//         console.log('Robot')
+//     } else if (number % 3 === 0 && number % 5 === 0){
+//         console.log('Mr. Robot')
+//     } else {
+//         console.log(numbers)
+//     }
+// }
+// }
+// logNumbers();
+
+
+    </script>
+</body>
+</html>
